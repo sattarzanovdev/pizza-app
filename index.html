@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.svg">
+    <title>React pizza - самая вкусная пицца во вселенной!</title>
+  </head>
+  <body>
+    <div class="App">
+      <header>
+        <div class='nav'>
+          <div class='logo'>
+            <div class='logo_img'>
+              <img src='img/logo.svg' />
+            </div>
+            <div class='logo_text'>
+              <h1>REACT PIZZA</h1>
+              <p>самая вкусная пицца во вселенной</p>
+            </div>
+          </div>
+          <div class='price_and_korzina'>
+            <button>520 ₽ | <img src='img/shopping.svg'/> 3</button>
+          </div>
+        </div>
+      </header>
+      
+      <main>
+        <div class="filter">
+          <div class="filter_btns">
+            <button class="all">Все</button>
+            <button class="meat">Мясные</button>
+            <button class="vegetrian">Вегетрианская</button>
+            <button class="gril">Гриль</button>
+            <button class="hot">Острые</button>
+            <button class="closed">Закрытые</button>
+          </div>
+          <div class="sort">
+            <p>Сортировка по: <span class="selected_sort">популярности</span></p>
+            <div class="drop">
+              <li class="popular">популярности</li>
+              <li class="price">по цене</li>
+              <li class="alphabet">по алфавиту</li>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="loader">
+
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
